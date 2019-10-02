@@ -13,24 +13,44 @@
 
 #box1
 {
-	background-color: aqua;
+	background-color:aqua;
 	grid-area:box1;
 }
 
 #box2
 {
-	background-color: blueviolet;
+	background-color:blueviolet;
 	grid-area:box2;
 }
 
 
 #box3
 {
-	background-color: cornflowerblue;
+	background-color:cornflowerblue;
 	grid-area:box3;
 }
 
 #box4
-{background-color: darkgrey;
+{background-color:darkgrey;
 	grid-area:box4;
+}
+
+
+
+@media only scree and (min-width:800px)
+{
+
+{
+	display: grid;
+	grid-template-columns:25% 25% 25% 25%;
+	grid-template-rows:auto;
+	grid-template-areas:
+	"box1 box1 box1 box1"
+	"box2 box2 box3 ."
+    "box4 box4 box3 box3"
+    "box4 box4 box3 box3";
+
+}
+
+
 }
