@@ -6,19 +6,23 @@
 #box1
 {
 	background-color: aqua;
+	grid-area:box1;
 }
 
 #box2
 {
 	background-color: blueviolet;
+	grid-area:box2;
 }
 
 
 #box3
 {
 	background-color: cornflowerblue;
+	grid-area:box3;
 }
 
 #box4
 {background-color: darkgrey;
+	grid-area:box4;
 }
