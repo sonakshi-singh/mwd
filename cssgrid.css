@@ -3,6 +3,12 @@
 	display: grid;
 	grid-template-columns:150px 200px 100px;
 	grid-template-rows:auto;
+	grid-template-areas:
+	"box1 box1 box1"
+	"box2 box2 box3"
+    "box4 box4 box3"
+    "box4 box4 box3";
+
 }
 
 #box1
