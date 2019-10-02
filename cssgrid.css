@@ -2,3 +2,23 @@
 {
 	display: grid;
 }
+
+#box1
+{
+	background-color: aqua;
+}
+
+#box2
+{
+	background-color: blueviolet;
+}
+
+
+#box3
+{
+	background-color: cornflowerblue;
+}
+
+#box4
+{background-color: darkgrey;
+}
